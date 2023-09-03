@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <!-- <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/responsvie.css"> -->
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lato:wght@900&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(192, 2, 2);
+    overflow-x: hidden;
+    height: 1000vw;
+}
+
+.tray-1 {
+    /* background-image: url('css/img/tray-1_bg.png'); */
+    height: 57vw;
+    width: 100vw;
+    background-size: cover;
+    background-color: transparent;
+    color: white;
+    position: relative;
+}
+
+/* .main_image{
+    max-width: 100%;
+    max-height: 80vw;
+    overflow: hidden;
+} */
+.main_image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo img {
+    height: 57px;
+    width: 187px;
+    margin: 1rem 45rem 0px 11rem;
+}
+
+.first_options {
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.lang_options {
+    /* height: 30px;
+    width: 89px; */
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.lang_option {
+    width: 90px;
+    height: 31px;
+}
+
+.btn1 {
+    font-style: none;
+    /* background-color: rgb(240, 11, 11); */
+
+    color: black;
+    /* margin: 32px 700px; */
+}
+
+.lang .sign_in {
+    display: flex;
+}
+
+.btn1 button {
+    height: 34px;
+    width: 76px;
+    font-weight: bolder;
+    border: 2px solid red;
+    color: white;
+    background-color: red;
+    border-radius: 0.5rem;
+}
+
+.first_line {
+    position: absolute;
+    top: 12rem;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.second_line {
+    position: absolute;
+    top: 16rem;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.first_para {
+    top: 24rem;
+    position: absolute;
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.second_para {
+    top: 28rem;
+    position: absolute;
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.email_input {
+    position: absolute;
+    top: 31rem;
+    left: 22rem;
+}
+
+.email_input_bar {
+    height: 3rem;
+    width: 29rem;
+    font-size: large;
+}
+
+.btn2 {
+    position: absolute;
+    top: 31rem;
+    left: 52rem;
+
+}
+
+.btn2 button {
+    width: 14rem;
+    height: 3.1rem;
+    color: white;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 0.5rem;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.tray-2 {
+    background-color: black;
+    height: 40vw;
+    width: 100%;
+    color: white;
+    position: relative;
+    display: flex;
+}
+
+/* .tray-2 h1{
+    top: 2rem;
+    position: absolute;
+} */
+.tray-2_content {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    font-size: x-large;
+    position: absolute;
+    top: 10rem;
+    left: 12rem;
+
+
+}
+
+.tray-2_tv {
+    position: absolute;
+    left: 46rem;
+    z-index: 5;
+}
+
+.tray-2_video {
+    position: absolute;
+    top: 6rem;
+    left: 51rem;
+    z-index: 2;
+
+}
+
+.netflix_video {
+    height: 266px;
+    width: auto;
+    background-color: black;
+}
+
+.tray-3 {
+    background-color: black;
+    height: 40vw;
+    width: 100%;
+    color: white;
+    position: relative;
+    display: flex;
+    top: 1rem;
+    flex-direction: row-reverse;
+
+}
+
+.tray-3_content {
+    font-family: 'Lato', sans-serif;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+    top: 9rem;
+}
+
+.tray-4 {
+    background-color: black;
+    height: 40vw;
+    width: 100%;
+    color: white;
+    position: relative;
+    display: flex;
+    top: 2rem;
+    flex-direction: row;
+
+}
+
+.tray-4_content {
+    font-family: 'Lato', sans-serif;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+    top: 5rem;
+    width: 50%;
+}
+
+.watch_heading {
+    position: relative;
+    left: 8rem;
+    top: 9rem;
+}
+
+.watch_line1 {
+    position: relative;
+    left: 8rem;
+    top: 8rem;
+    width: 72%;
+}
+
+.tray-5_content {
+    font-family: 'Lato', sans-serif;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+    top: 10rem;
+    width: 50%;
+}
+
+.tray-5 {
+    background-color: black;
+    height: 40vw;
+    width: 100%;
+    color: white;
+    position: relative;
+    display: flex;
+    top: 3rem;
+    flex-direction: row-reverse;
+
+}
+
+.tray-6 {
+    background-color: black;
+    height: 100vw;
+    width: 100%;
+    color: white;
+    position: relative;
+    /* display: flex; */
+    top: 4rem;
+    /* flex-direction: row-reverse; */
+    font-family: 'Lato', sans-serif;
+
+}
+
+.tray-6 h1 {
+    font-size: xxx-large;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    top: 2rem;
+    height: 4rem;
+}
+
+.questions_button {
+    position: relative;
+    top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+
+}
+.questions_button button{
+    height: 5rem;
+width: 62rem;
+background-color: #575454;
+border: none;
+color: white;
+font-size: xx-large;
+}
+</style>
+</head>
+
+<body>
+   
+    <div class="tray-1">
+        <div class="main_image">
+            <img class="logo_image" src="tray-1_bg.png" alt="">
+        </div>
+        <div class="first_options">
+            <div class="logo">
+                <img src="netflix_transparent3.png" alt="" height="200px" width="200px">
+            </div>
+
+            <div class="lang_options">
+                <select class="lang_option" name="Language" id="language">
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                </select>
+
+                <div class="sign_in">
+                    <div class="btn1">
+                        <button>Sign In</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="intro_template">
+            <h1 class="first_line">
+                The biggest Indian hits. The best Indian stories.
+            </h1>
+            <h1 class="second_line">
+                All streaming here.
+            </h1>
+            <p1 class="center first_para">
+                Watch anywhere. Cancel anytime.
+            </p1>
+            <p1 class="center second_para">
+                Ready to watch? Enter your email to create or restart your membership.
+            </p1>
+            <div class="email_input">
+                <input class="email_input_bar" type="search" name="search" id="search" placeholder="  Email Adress">
+            </div>
+            <div class="get_started">
+                <div class="btn2">
+                    <button>Get Started ></button>
+                </div>
+            </div>
+        </div>
+     </div>
+      <div class="tray-2">
+       <div class="tray-2_content">
+        <h1 class="tv_heading ">Enjoy on your TV</h1>
+        <p1 class="line1 ">Watch on smart TVs, PlayStation, Xbox, </p1>
+        <p1 class="line2 ">Chromecast, Apple TV, Blu-ray players and more.</p1>
+       </div>
+       <div class="tray-2_tv">
+        <img src="netflix_tv.png" alt="">
+       </div>
+       <div class="tray-2_video">
+        <video src="netflix_video.mp4" class="netflix_video" controls autoplay  width="200px" height="200px"></video>
+       </div>
+      </div>
+      <div class="tray-3">
+        <div class="tray-3_content">
+         <h1 class="download_heading ">Download your shows to watch offline</h1>
+         <p1 class="download_line1 ">Save your favourites easily and always have something to watch. </p1>
+        </div>
+        <div class="tray-3_phone">
+         <img src="netflix_download_phone.jpg" alt="">
+        </div>
+       </div>
+       <div class="tray-4">
+        <div class="tray-4_content">
+         <h1 class="watch_heading ">Watch everywhere</h1>
+         <p1 class="watch_line1 ">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV. </p1>
+        </div>
+        <div class="tray-4_tv">
+         <img src="netflix_tv2.png" alt="">
+        </div>
+       </div>
+       <div class="tray-5">
+        <div class="tray-5_content">
+         <h1 class="children_heading ">Create profiles for kids</h1>
+         <p1 class="children_line1 ">Send children on adventures with their favourite  </p1>
+         <p1 class="children_line1 ">characters in a space made just for them—free </p1>
+         <p1 class="children_line1 ">with your membership.</p1>
+        </div>
+        <div class="tray-5_children">
+         <img src="netflix_children.png" alt="">
+        </div>
+       </div>
+       <div class="tray-6">
+        <h1 class="questions">Frequently Asked Questions</h1>
+        <div class="questions_button">
+            <button><p>What is Netflix</p>
+            <p>+</p>
+            </button>
+        </div>
+       </div>
+
+
+
+
+
+
+</body>
+
+</html>

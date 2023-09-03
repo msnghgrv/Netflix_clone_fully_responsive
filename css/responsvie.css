@@ -1,0 +1,382 @@
+@media screen and (max-width: 1100px) {
+    .tray-1 {
+        /* background-image: url('css/img/tray-1_bg.png'); */
+        height: 32rem;
+        width: auto;
+        background-size: cover;
+        background-color: transparent;
+        color: white;
+        position: relative;
+        top: 0rem;
+    }
+
+    .main_image {
+        height: 32rem;
+        width: 100%;
+    }
+
+    .main_image img {
+        height: 32rem;
+        width: 100%;
+    }
+
+    .logo {
+        margin: 11px 18px;
+    }
+
+    .logo img {
+        height: 39px;
+        width: auto;
+        margin: 0 0;
+    }
+
+    .first_line {
+        font-size: 1.5rem;
+        top: 5rem;
+        text-align: center;
+    }
+
+    .second_line {
+        font-size: 1.5rem;
+        top: 9rem;
+    }
+
+    .first_para {
+        top: 12rem;
+        font-size: 1.2rem;
+    }   
+
+    .second_para {
+        top: 14rem;
+        position: absolute;
+        font-size: 1.1rem;
+        font-family: 'Poppins', sans-serif;
+        left: 0.9rem;
+    }
+
+    .email_input {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        position: absolute;
+        top: 21rem;
+        left: 0rem;
+    }
+
+    .email_input_bar {
+        height: 3rem;
+        width: 18rem;
+        font-size: large;
+    }
+
+    .btn2 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        position: absolute;
+        top: 26rem;
+        left: 0rem;
+    }
+
+    .tray-2 {
+        background-color: black;
+        height: 125vw;
+        width: 100%;
+        color: white;
+        position: relative;
+        /* display: flex; */
+        top: 2rem;
+    }
+
+    .tray-2_content {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Lato', sans-serif;
+        position: absolute;
+        top: 1rem;
+        left: 0rem;
+        font-size: 1rem;
+        justify-content: center;
+        width: 100%;    
+        align-items: center;
+    }
+
+    .tray-2_tv {
+        position: absolute;
+        left: 0rem;
+        z-index: 5;
+        top: 11rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .tray-2_tv img {
+        height: 17rem;
+        width: auto;
+    }
+
+    .tray-2_video {
+        position: absolute;
+        top: 14rem;
+        left: 0rem;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+    
+
+    .netflix_video {
+        height: 158px;
+        width: auto;
+        background-color: black;
+    }
+
+    .tray-3 {
+        background-color: black;
+        height: 60vh;
+        width: 100%;
+        color: white;
+        position: relative;
+        display: flex;
+        top: 3rem;
+        flex-direction: column;
+    }
+
+    .tray-3_content {
+        font-family: 'Lato', sans-serif;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 1rem;
+        left: 1rem;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .tray-3_content h1 {
+
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+    .download_line1 {
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+    .tray-3_phone{
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+    }
+    .tray-3_phone img {
+        position: absolute;
+        top: 13rem;
+        height: 18rem;
+
+    }
+    .tray-4 {
+        background-color: black;
+        height: 54vh;
+        width: 100%;
+        color: white;
+        position: relative;
+        display: flex;
+        top: 5rem;
+        flex-direction: row;
+      }
+      .tray-4_content {
+        font-family: 'Lato', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        position: relative;
+        top: 0rem;
+        width: 26rem;
+      }
+      .watch_heading {
+        position: relative;
+        left: 0rem;
+        top: 0rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+      
+      }
+      .watch_line1 {
+        position: relative;
+        top: -1rem;
+        width: 100%;
+        font-size: 1.1rem;
+        display: flex;
+        justify-content: center;
+        left: 1rem;
+      }
+      .tray-4_tv{
+        position: absolute;
+        top: 8rem;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+      .tray-4_tv img{
+        height: 18rem;
+      }
+      .tray-5 {
+        background-color: black;
+        height: 100vh;
+        width: 100%;
+        color: white;
+        position: relative;
+        display: flex;
+        top: 6rem;
+        flex-direction: column;
+      }
+      
+      .tray-5_content {
+        font-family: 'Lato', sans-serif;
+        font-size: x-large;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 1rem;
+        width: 100%;
+        justify-content: center;
+            }
+      .tray-5_content h1{
+        width: 100%;
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+      }
+      .children_line1{
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+
+      }
+      .tray-5_children{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+      .tray-5_children img{
+        height: 22rem;
+        top: 20rem;
+        position: absolute;
+      }
+      .tray-6{
+        top: 7rem;
+      }
+      .questions_button1 {
+        position: relative;
+        top: 3rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 5rem;
+        left: 0;
+      }
+      .questions_btn1 {
+        display: flex;
+        gap: 60vw;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .questions_button1 button {
+        height: 5rem;
+        width: 94vw;
+        background-color: #575454;
+        border: none;
+        color: white;
+        font-size: xx-large;
+      }
+      .questions_button2 {
+        position: relative;
+        top: 4rem;
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        left: 0;
+
+      }
+      .questions_button2 button {
+        height: 5rem;
+        width: 94vw;
+        background-color: #575454;
+        border: none;
+        color: white;
+        font-size: xx-large;
+        gap: 40vw;
+      }
+      .questions_button3 {
+        position: relative;
+        top: 5rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        left: 0
+        
+      }
+      .questions_button3 button {
+        height: 5rem;
+        width: 94vw;
+        background-color: #575454;
+        border: none;
+        color: white;
+        font-size: xx-large;
+        display: flex;
+        justify-content: center;
+        gap: 55vw;
+      }
+      .questions_button4 {
+        position: relative;
+        top: 6rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        left: 0;
+      }
+    .questions_button4 button {
+      height: 5rem;
+      width: 94vw;
+      background-color: #575454;
+      border: none;
+      color: white;
+      font-size: xx-large;
+      gap: 59vw;
+    }
+    .questions_button6 {
+        position: relative;
+        top: 7rem;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        left: 0;
+      }
+      .questions_button6 button {
+        height: 5rem;
+        width: 94vw;
+        background-color: #575454;
+        border: none;
+        color: white;
+        font-size: xx-large;
+        display: flex;
+        gap: 53vw;
+        justify-content: center;
+        align-items: center;
+        left: 0;
+            }
+
+    }
